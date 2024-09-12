@@ -10,7 +10,7 @@ export const Hero = () => {
         <img className="rounded-full shadow-lg h-24 sm:h-32 w-24 sm:w-32" loading="lazy" src={profile} alt='imagen-perfil'/>
         <div className="flex flex-col justify-center" >
           <h1 className='text-4xl sm:text-5xl font-bold tracking-tight'>Juan Díaz</h1>
-          <a className="cursor-pointer mt-2 w-min border-2 border-green-500 text-xs sm:text-sm text-green-800 dark:text-white/80 whitespace-nowrap bg-green-100 dark:bg-gray-800 rounded-full px-3 py-1" href='https://www.linkedin.com/in/juan-diaz-4880a8266/'>
+          <a className="cursor-pointer mt-2 w-min border-2 border-green-500 text-xs sm:text-sm text-green-800 dark:text-white/80 whitespace-nowrap bg-green-100 dark:bg-gray-800 rounded-full px-3 py-1" href='https://www.linkedin.com/in/juan-diaz-4880a8266/' target='_blank'>
             Disponible para trabajar
           </a>
         </div>

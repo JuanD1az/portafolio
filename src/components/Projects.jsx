@@ -39,8 +39,8 @@ export const Projects = ({tags}) => {
       title: "Shopping List - Crea tu lista de compra gratis.",
       description:
         "Shopping List es una aplicación web gratuita que te permite crear y organizar tus listas de compra de manera sencilla y rápida. Ideal para mantener tu compra bien organizada.",
-      link: "https://shoppinglist-six-xi.vercel.app/",
-      github: "https://github.com/JuanD1az/todolist",
+      link: "https://shoppinglist-test.vercel.app/",
+      github: "https://github.com/JuanD1az/shoppinglist",
       image: shoppinglist,
       tags: [tags.HTML, tags.CSS, tags.JS],
     },

@@ -1,5 +1,5 @@
-## Sobre mí
-Con más de 4 años de experiencia, soy Desarrollador Full Stack. Mi pasión y habilidades me permiten crear aplicaciones web innovadoras y experiencias digitales tanto a nivel nacional como internacional.
+## Portafolio de Juan Díaz
+Este portafolio presenta mi experiencia y habilidades como Desarrollador Full Stack. Aquí podrás encontrar experiencia laboral y proyectos que he desarrollado a lo largo de mi carrera. Cada sección del portafolio refleja mi enfoque en crear aplicaciones web funcionales, eficientes y adaptadas a las necesidades específicas de los clientes. Mi objetivo es demostrar mi capacidad para transformar ideas en soluciones tecnológicas efectivas.
 
 ## Lenguajes y Herramientas
 <div>

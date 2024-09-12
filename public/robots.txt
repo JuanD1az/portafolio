@@ -1,0 +1,8 @@
+# robots.txt for Juan Díaz's portfolio
+
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Allow: /
+
+Sitemap: https://www.tuportafolio.com/sitemap.xml

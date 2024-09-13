@@ -30,8 +30,8 @@ export const Projects = ({tags}) => {
       title: "Pokedex - Explora todos los Pokémon.",
       description:
         "Explora la Pokédex nacional con información detallada de todos los Pokémon. Descubre evoluciones, tipos, movimientos y estadísticas. ¡Todo lo que necesitas saber de cada Pokémon en un solo lugar!",
-      link: "",
-      github: "",
+      link: "https://pokedexapi-test.vercel.app/",
+      github: "https://github.com/JuanD1az/pokedex",
       image: pokedex,
       tags: [tags.REACT, tags.TAILWIND],
     },

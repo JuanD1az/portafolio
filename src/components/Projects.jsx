@@ -49,7 +49,7 @@ export const Projects = ({tags}) => {
   return (
     <section id='proyectos' className='mt-32 my-16 sm:my-24'>
       <TitleSection title={"Proyectos"}/>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+      <div className='mt-8 grid grid-cols-1 md:grid-cols-2 gap-8'>
         {
           PROJECTS.map((project) => (
             <article key={project.title} className="hover:scale-[102%] ease-in-out duration-300 flex flex-col border border-gray-300 dark:border-gray-600 rounded-2xl overflow-hidden bg-gray-100 dark:bg-gray-800">

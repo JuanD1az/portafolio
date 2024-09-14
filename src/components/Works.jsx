@@ -37,7 +37,7 @@ export const Works = ({ tags }) => {
   return (
     <section id='experiencia'>
       <TitleSection title={"Experiencia laboral"}/>
-      <ol className="mt-10 relative">
+      <ol className="mt-8 relative">
         {
           EXPERIENCE.map((experience) => (
             <li key={experience.date}>

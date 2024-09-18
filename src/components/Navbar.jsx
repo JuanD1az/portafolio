@@ -19,6 +19,10 @@ export const Navbar = () => {
       url: "/#proyectos",
     },
     {
+      title: "Educación",
+      url: "/#educacion",
+    },
+    {
       title: "Contacto",
       url: "mailto:juanalbertodiazparra@gmail.com",
     },
@@ -27,7 +31,7 @@ export const Navbar = () => {
   return (
     <div>
       <header id='navbar' className={`fixed left-0 top-0 z-30 w-full flex justify-center items-center py-2 bg-[#F5F5F7] dark:bg-[#0A0A0F]`}>
-        <nav className="container md:max-w-2xl lg:max-w-4xl flex px-4 py-2 text-sm md:text-base font-medium md:rounded-full justify-between items-center" >
+        <nav className="dark:text-gray-50 container md:max-w-3xl lg:max-w-4xl flex px-4 py-2 md:rounded-full justify-between items-center" >
           <h1 className='text-4xl font-bold'>Juan<span className='text-blue-600 dark:text-blue-500'>D</span></h1>
           <ul className='hidden md:flex space-x-4'>
             {

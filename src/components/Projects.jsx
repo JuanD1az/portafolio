@@ -4,9 +4,10 @@ import pokedex from '../assets/pokedex.webp'
 import netflix from '../assets/netflix.webp'
 import shoppinglist from '../assets/shoppinglist.webp'
 import { TitleSection } from './TitleSection'
+import { TAGS } from '../tags'
 import { ProjectsItem } from './ProjectsItem'
 
-export const Projects = ({tags}) => {
+export const Projects = () => {
   const PROJECTS = [
     {
       title: "SwiftURL - Acorta tus enlaces de forma rápida y segura.",
@@ -15,7 +16,7 @@ export const Projects = ({tags}) => {
       link: "",
       github: "",
       image: swifturl,
-      tags: [tags.LARAVEL, tags.TAILWIND, tags.MYSQL],
+      tags: [TAGS.LARAVEL, TAGS.TAILWIND, TAGS.MYSQL],
     },
     {
       title: "Netflix Clone - Tráilers de Películas y Series.",
@@ -24,7 +25,7 @@ export const Projects = ({tags}) => {
       link: "",
       github: "",
       image: netflix,
-      tags: [tags.REACT, tags.TAILWIND, tags.FIREBASE],
+      tags: [TAGS.REACT, TAGS.TAILWIND, TAGS.FIREBASE],
     },
     {
       title: "Pokedex - Explora todos los Pokémon.",
@@ -33,7 +34,7 @@ export const Projects = ({tags}) => {
       link: "https://pokedexapi-test.vercel.app/",
       github: "https://github.com/JuanD1az/pokedex",
       image: pokedex,
-      tags: [tags.REACT, tags.TAILWIND],
+      tags: [TAGS.REACT, TAGS.TAILWIND],
     },
     {
       title: "Shopping List - Crea tu lista de compra gratis.",
@@ -42,12 +43,12 @@ export const Projects = ({tags}) => {
       link: "https://shoppinglist-test.vercel.app/",
       github: "https://github.com/JuanD1az/shoppinglist",
       image: shoppinglist,
-      tags: [tags.HTML, tags.CSS, tags.JS],
+      tags: [TAGS.HTML, TAGS.CSS, TAGS.JS],
     },
   ]
 
   return (
-    <section id='proyectos' className='mt-32 my-16 sm:my-24'>
+    <section id='proyectos'>
       <TitleSection title={"Proyectos"}/>
       <div className='mt-8 grid grid-cols-1 md:grid-cols-2 gap-8'>
         {

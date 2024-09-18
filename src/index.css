@@ -14,5 +14,22 @@ body{
 }
 
 [id] {
-    scroll-margin-top: 6em;
+    scroll-margin-top: 8em;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(-70px * 9.3 - 16px * 18.6));
+	}
+}
+
+.animate-scroll {
+	animation: scroll 10s linear infinite;
+}
+
+.animate-scroll:hover{
+    animation-play-state: paused;
 }

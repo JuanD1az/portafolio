@@ -54,7 +54,7 @@ export const Navbar = () => {
         </nav>
       </header>
       {showModal ? (
-        <div className="w-screen fixed top-0 right-0 h-full w-0 overflow-hidden bg-black bg-opacity-75 backdrop-blur-lg shadow-lg transition-all duration-300 z-10 md:hidden">
+        <div className="w-screen fixed top-0 right-0 h-full overflow-hidden bg-black bg-opacity-75 backdrop-blur-lg shadow-lg transition-all duration-300 z-10 md:hidden">
           <div className="w-full h-full px-8 py-20 relative ">
             <div className="h-full flex flex-col justify-center items-center gap-10 text-white text-xl">
               {

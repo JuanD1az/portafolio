@@ -4,6 +4,7 @@ import { Works } from './components/Works'
 import { Projects } from './components/Projects'
 import { Educations } from './components/Educations'
 import { Tecnologies } from './components/Tecnologies'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
           <Projects />
           <Tecnologies />
           <Educations />
+          <Footer />
         </div>
-
       </div>
 
     </>

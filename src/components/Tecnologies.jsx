@@ -35,7 +35,7 @@ export const Tecnologies = () => {
             <article className='grid grid-rows-2 grid-flow-col whitespace-nowrap animate-scroll gap-4'>
                 {
                     TECNOLOGIES.map((tag) => (
-                        <div key={tag.name} className={`group relative inline-block whitespace-nowrap min-w-[70px] min-h-[70px] max-w-[70px] max-h-[70px] flex justify-center items-center border rounded-xl ${tag.border} ${tag.bg_opacity}`}>
+                        <div key={tag.name} className={`group relative whitespace-nowrap min-w-[70px] min-h-[70px] max-w-[70px] max-h-[70px] flex justify-center items-center border rounded-xl ${tag.border} ${tag.bg_opacity}`}>
                             <tag.svg size={true}/>
                             <Tooltip text={tag.name}/>
                         </div>
@@ -43,7 +43,7 @@ export const Tecnologies = () => {
                 }
                 {
                     TECNOLOGIES.map((tag) => (
-                        <div key={tag.name} className={`group relative inline-block whitespace-nowrap min-w-[70px] min-h-[70px] max-w-[70px] max-h-[70px] flex justify-center items-center border rounded-xl ${tag.border} ${tag.bg_opacity}`}>
+                        <div key={tag.name} className={`group relative whitespace-nowrap min-w-[70px] min-h-[70px] max-w-[70px] max-h-[70px] flex justify-center items-center border rounded-xl ${tag.border} ${tag.bg_opacity}`}>
                             <tag.svg size={true}/>
                             <Tooltip text={tag.name}/>
                         </div>
